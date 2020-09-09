@@ -1,0 +1,140 @@
+#t01 tr:nth-child(even) 
+  {
+    background-color: rgb(252, 237, 237);
+  }
+  #t01 tr:nth-child(odd) {
+    background-color: rgb(255, 255, 255);
+  }
+  #t01 th {
+    color: white;
+    background-color: rgb(134, 123, 123);
+  }
+  #t01 table{
+    margin:0 auto;
+
+  }
+  #t01 div{
+    text-align: center;
+  }
+
+  #t02 th {
+    color: black;
+    background-color: rgb(170, 177, 147);
+  }
+
+  #menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(148, 135, 163);
+    position: sticky;
+    top: 0;
+  }
+  
+ #menu li {
+    float: left;
+  }
+  
+ #menu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  #menu li a:hover {
+    background-color: #111;
+  }
+  
+  #menu .active {
+    background-color: #45a3a7;
+  }
+
+  #labe label
+  {
+    list-style-type: disc;
+  }
+  #formu select
+  {
+    border-radius: 4px;
+    background-color: rgb(123, 120, 134);
+    padding: 8px 20px;
+    width: 30%;
+    border: none;
+  }
+
+  #formu button
+  {
+  background-color: #6c6585;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-decoration: none;
+  border-radius: 4px;
+  margin: 4px 2px;
+  cursor: pointer;
+  }
+
+  #formu label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  
+#formu h2
+{
+  text-align: center;
+}
+#formu input
+{
+  padding: 8px 20px;
+  background-color: rgb(120, 118, 133);
+  border: none;
+  border-radius: 4px;
+  
+}
+
+#formu form
+{
+  width:600px;
+	padding:16px;
+	border-radius:10px;
+	margin:auto;
+	background-color:rgb(143, 140, 165);
+}
+
+#formu form label{
+	width: 72px;
+	font-weight: bold;
+	display: inline-block;
+}
+
+#formu form input[type="submit"]{
+	width:100%;
+	padding:8px 16px;
+	margin-top:32px;
+	border:1px solid #000;
+	border-radius:5px;
+	display:block;
+	color:#fff;
+	background-color:#658566;
+} 
+
+#formu form input[type="submit"]:hover{
+	cursor:pointer;
+}
+
+#main h1
+{
+  text-align: center;
+}
+
+#main p
+{
+  border: 1px solid #000;
+  background-color: rgb(140, 136, 190);
+  border-radius: 5px;
+  width: 45%;
+  
+}
